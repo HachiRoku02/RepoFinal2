@@ -1,65 +1,244 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="assets/css/templatemo.css">
-    <link rel="stylesheet" href="assets/css/custom.css">
-
+    <title>Luce e Stile</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link rel="icon" href="./img/gem.svg"  type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
-</nav>
-<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-    <div class="card text-center">
-        <div class="card-header">
-          Featured
-        </div>
-        <div class="card-body">
-          <h5 class="card-title">Special title treatment</h5>
-          <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-          <a href="#" class="btn btn-primary">Go somewhere</a>
-        </div>
-        <div class="card-footer text-body-secondary">
-          2 days ago
-        </div>
-      </div>
+    <header>
+        <!-- Inicio encabezado -->
+         <nav class="navbar navbar-expand-lg bg-dark">
+            <div class="container text-light">
+                <div class ="row w-100 justify-content-between">
 
+                    <div class="col-12 col-md-5 justify-content-center">
+                        <i class="bi bi-envelope-at-fill"></i>
+                        <a href="mailto:infoaccesorios@mail.com" class="navbar-sm-brand text-light text-decoration-none">infoLuceStile@mail.com</a>
+                    </div>
+
+                    <div class="col-12 col-md-5 justify-content-center">
+                        <i class="bi bi-telephone"></i>
+                        <a href="tel:3008496799" class="navbar-sm-brand text-light text-decoration-none">3008496799</a>
+                        
+                    </div>
+
+                      <div class="col-12 col-md-2 justify-content-center">
+                        <a href="https://www.facebook.com" class="navbar-sm-brand text-light text-decoration-none me-2">
+                            <i class="bi bi-facebook"></i>
+                        </a>
+                        <a href="https://wa.me/" class="navbar-sm-brand text-light text-decoration-none me-2">
+                            <i class="bi bi-whatsapp"></i>
+                        </a>
+                        <a href="https://www.instagram.com" class="navbar-sm-brand text-light text-decoration-none me-2">
+                            <i class="bi bi-instagram"></i>
+                        </a>
+                        <a href="https://www.twitter.com" class="navbar-sm-brand text-light text-decoration-none me-2">
+                            <i class="bi bi-twitter-x"></i>
+                        </a>
+                    </div>
+
+                </div>
+
+            </div>
+
+
+         </nav>
+
+        <!-- Fin encabezado -->
+
+        <!-- inicio navbar -->
+        <nav class="navbar navbar-expand-lg border-bottom border-body" style="background-color: bisque" data-bs-theme="light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="./index.html"><img src="./img/Logo.ico" alt="Luce E Stile " width="170" height="65"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="./cart.html">Carrito</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Productos</a>
+                    <ul class="dropdown-menu">
+                      <li><a class="dropdown-item" href="#relojes">Relojes de Lujo</a></li>
+                      <li><a class="dropdown-item" href="#cadenas">Cadenas</a></li>
+                      <li><a class="dropdown-item" href="#pulseras">Pulseras</a></li>
+                      <li><a class="dropdown-item" href="#ropa">Ropa</a></li>
+                      
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#otros-productos">Mas...</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/Carrito de compras/details/Nosotros.html">¿Quienes Somos?</a>
+                  </li>
+                </ul>
+                <form class="d-flex position-relative" role="search" id="search-form" onsubmit="handleSearch(event)">
+                    <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search" id="search-input" oninput="updateSearchResults()">
+                    <button class="btn btn-outline-success" type="submit">Buscar</button>
+                    <div id="search-results" class="position-absolute bg-white border rounded mt-2 w-100" style="z-index: 1000; display: none;"></div>
+                </form>
+              </div>
+            </div>
+          </nav>
+
+        <!-- fin navbar -->
+
+    </header>
+    <main>
+            <div class="categories">
+                <!-- Categoría: Relojes de Lujo -->
+                <section class="category" id="relojes">
+                    <h2>Relojes de Lujo</h2>
+                    <div class="products">
+                        <div class="product">
+                            <img src="https://http2.mlstatic.com/D_NQ_NP_633098-MCO78823628433_082024-O.webp" alt="Reloj Casio Hombre Edifice ">
+                            <h3>Reloj Casio Hombre Edifice</h3>
+                            <p>Precio: $900,000</p>
+                            <button onclick="addToCart('Casio Edifice',900000)" class="btn btn-dark" >Agregar al carrito</button><br><br>
+                            <button onclick="location.href='./details/CasioEdifice.html'" class="btn btn-dark">Ver detalles</button>
+                        </div>
+                        <div class="product">
+                            <img src="https://bauer.com.co/wp-content/uploads/2024/05/m126613lb-0002_drp-upright-bba-with-shadow.png" alt="Reloj Rolex Submariner">
+                            <h3>Reloj Rolex Submariner</h3>
+                            <p>Precio: $1,200,000</p>
+                            <button onclick="addToCart('Rolex Submariner',1200000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/RolexSub.html'" class="btn btn-dark">Ver detalles</button>
+                        </div>
+                        <div class="product">
+                            <img src="https://invicta.com.co/cdn/shop/files/886678356416_201_66f8c54b-675f-4fad-80b2-29cd9a70fbba_1024x1024@2x.jpg?v=1742789561" alt="Reloj Invicta Pro Diver">
+                            <h3>Reloj Invicta Pro Diver </h3>
+                            <p>Precio: $1,000,000</p>
+                            <button onclick="addToCart('Rolex Submariner',1000000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/Invicta.html'" class="btn btn-dark">Ver detalles</button>
+                        </div>
+
+                          
+                    </div>
+                </section>
+        
+                <!-- Categoría: Cadenas  -->
+                <section class="category" id="cadenas">
+                    <h2>Cadenas </h2>
+                    <div class="products">
+                        <div class="product">
+                            <img src="https://joyeriabrillantes.com/wp-content/uploads/2023/06/cadena-oro-18-kilates-7-e1686716819184-600x800.jpg" alt="Reloj Casio Ferrari G-Shock">
+                            <h3>Cadena de Oro 18K Hombre</h3>
+                            <p>Precio: $500,000</p>
+                            <button onclick="addToCart('Cadena de Oro 18K H',500000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/CadenaOro.html'" class="btn btn-dark" >Ver detalles</button>
+                        </div>
+                        <div class="product">
+                            <img src="https://http2.mlstatic.com/D_NQ_NP_927132-MCO53606882931_022023-O.webp" alt="Cadena de Oro 18k con pendiente Hombre">
+                            <h3>Cadena de Oro 18k con pendiente </h3>
+                            <p>Precio: $300,000</p>
+                            <button onclick="addToCart('Cadena de Oro 18K Pendiente',300000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/CadenaOroPendiente.html'" class="btn btn-dark">Ver detalles</button>
+                        </div>
+                        <div class="product">
+                            <img src="https://acdn-us.mitiendanube.com/stores/002/054/772/products/20220511_161109_00001-25e96c45ddd552dd5016628377117604-640-0.webp" alt="Cadena de Oro 18K Mujer">
+                            <h3>Cadena de Oro 18K Mujer</h3>
+                            <p>Precio: $400,000</p>
+                            <button onclick="addToCart('Cadena de Oro 18K Mujer',400000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/CadenaOroMujer.html'" class="btn btn-dark">Ver detalles</button>
+                        </div>
+                    </div>
+                  </section>
+
+                <!-- Categoría: Pulseras  -->
+
+                <section class="category" id="pulseras">
+                    <h2>Pulseras</h2>
+                    <div class="products">
+                        <div class="product">
+                            <img src="https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/clawine-m/alloycolour/yellow/accent/malachite.jpg" alt="Pulsera de Oro 18K Hombre">
+                            <h3>Pulsera de Oro y Plata 18K Hombre</h3>
+                            <p>Precio: $500,000</p>
+                            <button onclick="addToCart('Pulsera de Oro y Plata 18K Hombre',800000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/PulseraOroPlata.html'" class="btn btn-dark">Ver detalles</button>
+                        </div>
+                        <div class="product">
+                            <img src="https://cdn-media.glamira.com/media/product/newgeneration/view/2/sku/fionnuala-3.5crt-m/diamond/diamond-Brillant_AAA/alloycolour/yellow.jpg" alt="Pulsera de Oro 18K Mujer">
+                            <h3>Pulsera de Oro 18K y Plata Mujer</h3>
+                            <p>Precio: $300,000</p>
+                            <button onclick="addToCart('Pulsera de Oro 18K y Plata Mujer',700000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/PulseraOroPlataMujer.html'" class="btn btn-dark">Ver detalles</button>
+                        </div>
+                        <div class="product">
+                            <img src="https://ik.imagekit.io/ofertu//g9ccskzjqioonwyjsbw77rt35gse?tr=w-260,h-260" alt="Pulsera de Oro 18K Mujer">
+                            <h3>Pulsera de Oro 18K Mujer</h3>
+                            <p>Precio: $150,000</p>
+                            <button onclick="addToCart('Pulsera de Oro 18K y Plata Mujer',600000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/PulseraOroMujer.html'" class="btn btn-dark">Ver detalles</button>
+                        </div>
+                    </div>
+                </section>
+                <!-- Categoría: Ropa  -->
+                <section class="category" id="ropa">
+                    <h2>Ropa</h2>
+                    <div class="products">
+                        <div class="product">
+                            <img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1695141038/768631_XJF5A_4560_001_100_0000_Light-Camiseta-polo-de-algodn-con-bordado-GG.jpg" alt="Camisa de Algodón Hombre">
+                            <h3>Camisa de Algodón Hombre</h3>
+                            <p>Precio: $200,000</p>
+                            <button onclick="addToCart('Camisa de Algodón Hombre',200000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/CamisaAlgodonHombre.html'" class="btn btn-dark">Ver detalles</button>
+                        </div>
+                        <div class="product">
+                            <img src="https://media.gucci.com/style/DarkGray_Center_0_0_800x800/1739553353/830353_Z7ADR_6052_001_100_0000_Light-Camisa-de-popelina-de-algodn-con-lazo.jpg" alt="Vestido de Algodón Mujer">
+                            <h3>Camisa manga larga de Algodón Mujer</h3>
+                            <p>Precio: $250,000</p>
+                            <button onclick="addToCart('Camisa manga larga de Algodón Mujer',250000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/CamisaAlgodonMujer.html'" class="btn btn-dark">Ver detalles</button>
+                        </div>
+                        <div class="product">
+                            <img src="https://es.louisvuitton.com/images/is/image/lv/1/PP_VP_L/louis-vuitton-vestido-de-punto-con-cuello-de-polo--FTKD23WDK002_PM2_Front%20view.png?wid=1090&hei=1090" alt="Vestido de Algodón Mujer">
+                            <h3>Vestido de Algodón Mujer</h3>
+                            <p>Precio: $2,500,000</p>
+                            <button onclick="addToCart('Vestido de Algodón Mujer',250000)" class="btn btn-dark">Agregar al carrito</button>
+                            <br><br>
+                            <button onclick="location.href='./details/VestidoAlgodonMujer.html'" class="btn btn-dark">Ver detalles</button>
+                    </div>
+                </section>
+                <!-- Categoría: Ver mas productos  -->
+                                 
+                <section class="category">
+                    <div class="text-center">
+                      <button type="button" class="btn btn-secondary">Ver más productos</button>
+                    </div>
+                </section>
+                    
+
+
+              </div>
+        </main>
+    <footer>
+      <i class="bi bi-gem"></i>
+      Luce e Stile Derechos Reservados &copy; 2025
+      <i class="bi bi-gem"></i>
+    </footer>
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+        
+    
 </body>
 </html>
